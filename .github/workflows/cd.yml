@@ -17,11 +17,7 @@
           
 name: DNI
 
-on:
-  push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+on: [push]
 
 jobs:
   ci:
