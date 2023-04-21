@@ -1,20 +1,3 @@
-# name: For every push
-
-# on: [push]
-
-# jobs:
-#   ci:
-#     runs-on: ubuntu-latest
-#     steps:
-#       - uses: actions/checkout@v2
-#       - name: PHPUnit Tests
-#         uses: php-actions/phpunit@v1
-#         env:
-#           TEST_NAME: dniTest
-#         with:
-#           configuration: test/phpunit.xml
-#           args: --coverage-text
-          
 name: DNI
 
 on: [push]
