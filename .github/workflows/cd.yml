@@ -13,7 +13,7 @@ jobs:
         env:
           TEST_NAME: calculadoratest
         with:
-          configuration: test/phpunit.xml
+          configuration: Test/phpunit.xml
           args: --coverage-
           
   CD:
